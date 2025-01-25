@@ -1,5 +1,5 @@
 ul.social-links
-  - var socials = Object.fromEntries(Object.entries(theme.social).filter((x) => x[1]));
+  - var socials = Object.fromEntries(Object.entries(theme.socials).filter((x) => x[1]));
   each link, icon in socials
     case icon
       when "mail"
